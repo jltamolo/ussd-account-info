@@ -5,9 +5,9 @@ $sericeCode = $_POST["serviceCode"];
 $phoneNumber = $_POST["phoneNumber"];
 $text = $_POST["text"];
 
-if ($text = ""){
+if ($text == ""){
     //first request 
-    $response = "CON What would you want to check? \n";;
+    $response = "CON What would you want to check? \n";
     $response .= "1. My Account number \n";
     $response .= "2. My Phone Number \n";
 }
